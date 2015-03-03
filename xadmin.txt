@@ -1,0 +1,10 @@
+pip install -r requirements.txt
+pip install MySQL-python
+sudo apt-get install libmysqld-dev
+
+cp -rf xadmin_bak env/lib/python2.7/site-packages/xadmin
+python manage.py migrate
+python manage.py createsuperuser
+
+create database xadmin17 default character set utf8 collate utf8_general_ci;
+create database ugc_manage default character set utf8 collate utf8_general_ci;
