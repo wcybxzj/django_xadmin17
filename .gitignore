@@ -44,3 +44,4 @@ xadmin/static/xadmin/bower_components/
 *~
 demo_app/data.db
 env
+*.pyc
