@@ -22,7 +22,9 @@ class QuestionAdmin(admin.ModelAdmin):
         ),
         ]
     inlines = [ChoiceInline]
-    list_display = ('question_text', 'pub_date', 'was_published_recently') #列表页多显示几个内容
+    list_display = ('question_text',
+                    'pub_date',
+                    'was_published_recently') #列表页多显示几个内容
     list_filter = ['pub_date'] #列表页右侧filter
     search_fields = ['question_text']
 

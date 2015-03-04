@@ -1,4 +1,5 @@
 pip install -r requirements.txt
+
 pip install MySQL-python
 sudo apt-get install libmysqld-dev
 
@@ -8,3 +9,10 @@ python manage.py createsuperuser
 
 create database xadmin17 default character set utf8 collate utf8_general_ci;
 create database ugc_manage default character set utf8 collate utf8_general_ci;
+
+create database jie default character set utf8 collate utf8_general_ci;
+create database jie_data default character set utf8 collate utf8_general_ci;
+create database admin default character set utf8 collate utf8_general_ci;
+=====================================================================
+1.自动创建模型
+./manage.py inspectdb --database=jie_data> jie_spider/models.py
