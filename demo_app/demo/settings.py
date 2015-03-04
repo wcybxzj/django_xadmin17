@@ -53,7 +53,7 @@ DATABASES = {
     #    'PORT': '3306',
     #},
 }
-
+DATABASE_ROUTERS = ['jie_spider.routers.JieSpiderRouter',]
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
@@ -167,6 +167,10 @@ INSTALLED_APPS = (
 
     'app',
     'polls',
+    'jie_spider',
+    'blog',
+    'django_markdown',
+
 )
 
 DATE_FORMAT = 'Y-m-d'
