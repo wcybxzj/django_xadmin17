@@ -21,6 +21,7 @@ class QuestionAdmin(object):
              'classes': ['collapse']    #样式可以折叠
          }
         ),
+        
         ]
     inlines = [ChoiceInline]
     list_display = ('question_text', 'pub_date', 'was_published_recently') #列表页多显示几个内容
