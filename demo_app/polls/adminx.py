@@ -15,13 +15,7 @@ class QuestionAdmin(object):
          {
              'fields': ['pub_date'],    #model字段
              'classes': ['collapse']    #样式可以折叠
-<<<<<<< HEAD
          }),
-=======
-         }
-        ),
-
->>>>>>> 876e8a2b99035bf5d5faae56fda480bf4112a089
         ]
     inlines = [ChoiceInline]
     list_display = ('question_text', 'pub_date', 'was_published_recently') #列表页多显示几个内容

@@ -167,15 +167,9 @@ INSTALLED_APPS = (
 
     'app',
     'polls',
-<<<<<<< HEAD
-    'blog',
-    'django_markdown',
-    'jie_spider',
-=======
     'jie_spider',
     'blog',
     'django_markdown',
->>>>>>> 876e8a2b99035bf5d5faae56fda480bf4112a089
 
 )
 
