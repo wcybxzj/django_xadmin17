@@ -167,6 +167,10 @@ INSTALLED_APPS = (
 
     'app',
     'polls',
+    'blog',
+    'django_markdown',
+    'jie_spider',
+
 )
 
 DATE_FORMAT = 'Y-m-d'
