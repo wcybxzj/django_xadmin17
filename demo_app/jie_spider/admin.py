@@ -1,3 +1,8 @@
 from django.contrib import admin
+from models import JieSpider
 
-# Register your models here.
+class JieSpiderAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(JieSpider, JieSpiderAdmin)
+
