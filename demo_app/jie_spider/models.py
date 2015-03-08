@@ -85,3 +85,9 @@ class JieSpider(models.Model):
     class Meta:
         managed = False
         db_table = 'jie_spider'
+
+    def __str__(self):
+        return self.name
+
+    def __unicode__(self):
+        return self.name
