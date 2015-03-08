@@ -13,8 +13,5 @@ class EntryAdmin(MarkdownModelAdmin):
     # Next line is a workaround for Python 2.x
     formfield_overrides = {TextField: {'widget': AdminMarkdownWidget}}
 
-xadmin.site.register(models.Entry, EntryAdmin)
-xadmin.site.register(models.Tag)
-
-# admin.site.register(models.Entry, EntryAdmin)
-# admin.site.register(models.Tag)
+admin.site.register(models.Entry, EntryAdmin)
+admin.site.register(models.Tag)
